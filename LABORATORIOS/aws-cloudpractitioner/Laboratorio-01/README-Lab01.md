@@ -39,13 +39,20 @@
 Lanzaremos una instancia de Amazon Linux 2,donde arrancaremos Apache/PHP e instalaremos una página web básica que mostrará información sobre nuestra instancia.
 
 * Haga clic en EC2 Dashboard (Panel de EC2) cerca de la parte superior del menú de la izquierda. Luego, haga clic en Launch instances (Lanzar instancias).
-<img src="img/01.png">
+
+  <img src="img/06.png">
+
 * En Name (Nombre), ponga el valor ec2-bootcamp . Luego, compruebe la configuración predeterminada de Imagen de máquina de Amazon Linux.
+
   <img src="img/02.png">
+
 * Seleccione t2.micro en Instance Type (Tipo de instancia).
   <img src="img/03.png">
+
 * Seleccione el par de claves que creó al comienzo de este laboratorio en el menú desplegable.
+
   <img src="img/04.png">
+
 * Haga clic en el botón Edit (Editar) en Network settings (Configuración de red) para establecer en que VPC se ubicará la EC2.
 
 * Compruebe la VPC predeterminada y la subred. Auto-assign public IP (Asignar automáticamente la IP pública) está configurada en Enable (Habilitar). Justo debajo, cree grupos de seguridad para que actúen como un firewall de la red. Los grupos de seguridad especificarán los protocolos y las direcciones que desea permitir en la política de firewall. Para el grupo de seguridad que está creando en este momento, esta es la regla que se aplica al EC2 que se creará. Después de ingresar SG-WebServer en el nombre y la descripción del grupo de seguridad, seleccione Add Security group rule (Agregar regla de grupo de seguridad) y establezca HTTP en Tipo.
