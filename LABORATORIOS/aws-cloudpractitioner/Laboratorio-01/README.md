@@ -11,14 +11,14 @@
 
 ### Actividades a realizar :
 
-1. Crear un par de claves nuevo
-2. Lanzar una instancia de servidor web
-3. Conectarse a la instancia de Linux
-4. Conectarse a la instancia de EC2 mediante PuTTY (Opcional)
+1. Crear un par de claves nuevas.
+2. Lanzar una instancia de servidor web.
+3. Conectarse a la instancia de Linux.
+4. Conectarse a la instancia de EC2 mediante PuTTY (Opcional).
 
 
 
-## 1 - Crear un par de claves nuevo
+## 1 - Crear un par de claves nuevas.
 
 * Inicie sesión en la consola de administración de AWS y abra la  [consola de Amazon EC2](https://console.aws.amazon.com/ec2). En la esquina superior derecha de la consola de administración de AWS, confirme que se encuentra en la región de AWS deseada.
 
@@ -108,7 +108,7 @@ EOF
 
 
 ## 3 - Conectarse a la instancia de Linux
-* En la consola de instancias de EC2, seleccione la instancia a la que desea conectarse y, luego, haga clic en el botón Connect (Conectar).
+* En la consola de instancias de EC2, seleccione la instancia a la que desea conectarse y, luego haga clic en el botón Connect (Conectar).
 <img src="img/12.png">
 * En la página Connect to instance (Conectarse a la instancia), seleccione SSH client (Cliente SSH). Siga las instrucciones que aparecen a continuación.
 <img src="img/13.png">
